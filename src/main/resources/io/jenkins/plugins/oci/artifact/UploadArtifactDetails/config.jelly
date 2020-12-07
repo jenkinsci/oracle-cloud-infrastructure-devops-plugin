@@ -1,0 +1,23 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+<f:entry title="Source Path" field="sourcePath" >
+       <f:textbox />
+    </f:entry>
+    <f:entry title="Repository OCID" field="repositoryId" >
+       <f:textbox />
+    </f:entry>
+    <f:entry title="Version" field="version" >
+       <f:textbox />
+    </f:entry>
+    <f:entry title="Repository Type" field="repositoryType" >
+       <f:select />
+    </f:entry>
+    <f:entry title="Artifact Path" field="artifactPath" >
+        <f:textbox />
+    </f:entry>
+    <f:entry>
+        <div align="right">
+          <f:repeatableDeleteButton />
+        </div>
+    </f:entry>
+</j:jelly>
