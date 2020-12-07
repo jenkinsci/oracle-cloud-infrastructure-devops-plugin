@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  This plugin uploads artifacts to OCI artifact Repository and triggers a deployment.
+</div>

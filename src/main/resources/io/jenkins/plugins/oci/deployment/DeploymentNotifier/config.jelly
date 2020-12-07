@@ -1,0 +1,30 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+   <f:entry title="Credential" field="credentialsId" >
+      <f:select />
+   </f:entry>
+   <f:entry title="Pipeline OCID" field="pipelineId" >
+      <f:textbox />
+   </f:entry>
+  <f:entry title="Wait for Deployment Completion?" field="executionMode">
+    <f:radio name="executionMode" title="Yes" value="SYNC" checked="${instance.executionMode == 'SYNC'}" />
+    <f:radio name="executionMode" title="No" value="ASYNC" checked="${instance.executionMode == 'ASYNC'}" />
+  </f:entry>
+  <f:optionalBlock name="pollingConfig" title="Specify Deployment Status Polling Configuration?" checked="${instance.pollingConfig != null}" field="pollingConfig">
+      <f:entry title="Max Timeout in Seconds" field="timeoutSeconds">
+        <f:textbox value="${instance.pollingConfig.timeoutSeconds}" />
+      </f:entry>
+      <f:entry title="Polling Interval in Seconds" field="pollingIntervalSeconds">
+        <f:textbox value="${instance.pollingConfig.pollingIntervalSeconds}" />
+      </f:entry>
+  </f:optionalBlock>
+    <f:entry title="Arguments" field="argumentVal" >
+      <f:textbox />
+    </f:entry>
+   <f:entry title="Display Name" field="displayName" >
+      <f:textbox />
+   </f:entry>
+   <f:entry title="Endpoint" field="endpoint" >
+      <f:textbox />
+   </f:entry>
+</j:jelly>
