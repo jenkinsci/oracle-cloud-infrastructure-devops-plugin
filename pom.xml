@@ -28,8 +28,8 @@
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
     <licenses>
         <license>
-            <name>MIT License</name>
-            <url>https://opensource.org/licenses/MIT</url>
+            <name>The Universal Permissive License (UPL), Version 1.0</name>
+            <url>https://oss.oracle.com/licenses/upl</url>
         </license>
     </licenses>
     <dependencies>
@@ -208,20 +208,12 @@
         <email>jyoti.s.saini@oracle.com</email>
       </developer>
       <developer>
-        <id>soumymit</id>
+        <id>soumya_oracle</id>
         <name>Soumya Mitra</name>
         <email>soumya.m.mitra@oracle.com</email>
       </developer>
     </developers>
-
-    <!-- TODO: Add host details of @jenkinsci:
-    <url>https://wiki.jenkins.io/display/JENKINS/TODO+Plugin</url>
-    <scm>
-        <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    </scm>
-    -->
+    
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>

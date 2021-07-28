@@ -214,15 +214,15 @@ argumentVal | Specifies any deployment argument that is to be passed to the depl
 ## Licensing
 
 Copyright (c) 2021, Oracle and/or its affiliates. All rights reserved.
-This code is offered under the Universal Permissive License (UPL) 1.0. For more information, refer to the [LICENSE.txt](https://github.com/oracle/oci-devops-jenkins-plugin/blob/master/LICENSE.txt) file.
+This code is offered under the Universal Permissive License (UPL) 1.0. For more information, refer to the [LICENSE.txt](https://github.com/jenkinsci/oracle-cloud-infrastructure-devops-plugin/blob/main/LICENSE.txt) file.
 This plugin also contains other third-party code, under separate licenses identified in the THIRD_PARTY_LICENSES.txt file.
 
 ## Changelog
 
-For CHANGELOG please refer to [CHANGELOG.md](https://github.com/oracle/oci-devops-jenkins-plugin/blob/master/CHANGELOG.md).
+For CHANGELOG please refer to [CHANGELOG.md](https://github.com/jenkinsci/oracle-cloud-infrastructure-devops-plugin/blob/main/CHANGELOG.md).
 
 ## Contribution
 
-Oracle Cloud Infrastructure DevOps Plugin is an open source project. For more details, see [CONTRIBUTING.md](https://github.com/oracle/oci-devops-jenkins-plugin/blob/master/CONTRIBUTING.md).
+Oracle Cloud Infrastructure DevOps Plugin is an open source project. For more details, see [CONTRIBUTING.md](https://github.com/jenkinsci/oracle-cloud-infrastructure-devops-plugin/blob/main/CONTRIBUTING.md).
 
 Oracle gratefully acknowledges the contributions to the Oracle Cloud Infrastructure DevOps Plugin that have been made by the community.
