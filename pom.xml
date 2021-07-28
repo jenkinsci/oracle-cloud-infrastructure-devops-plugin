@@ -208,12 +208,12 @@
         <email>jyoti.s.saini@oracle.com</email>
       </developer>
       <developer>
-        <id>soumya_oracle</id>
+        <id>soumymit</id>
         <name>Soumya Mitra</name>
         <email>soumya.m.mitra@oracle.com</email>
       </developer>
     </developers>
-    
+
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
