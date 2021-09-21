@@ -11,4 +11,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 - Initial Release
 
 - Support added for uploading artifacts and triggering deployment.
+
+## 1.0.1 - 2021-09-21
+
+### Fixed
+
+- Fix issue with File access on distributed environments.
  
