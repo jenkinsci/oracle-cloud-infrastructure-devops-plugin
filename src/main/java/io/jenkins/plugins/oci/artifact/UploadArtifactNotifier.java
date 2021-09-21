@@ -97,9 +97,9 @@ public class UploadArtifactNotifier extends Notifier implements SimpleBuildStep 
     void uploadArtifacts(GenericArtifactsContentClient client, List<UploadArtifactDetails> details,
                          FilePath workspace, TaskListener listener ) throws Exception {
         for (UploadArtifactDetails detail : details) {
-            File artifactFile = new File(URLDecoder.decode(workspace.toURI().getPath(), UTF_8_ENCODING), detail.getSourcePath());
-            try (BufferedInputStream artifactContent = new BufferedInputStream(new FileInputStream(artifactFile))) {
-                listener.getLogger().println(String.format("Uploading Artifact located at %s", artifactFile.getPath()));
+            FilePath artifactFile = new FilePath(workspace, detail.getSourcePath());
+            try (BufferedInputStream artifactContent = new BufferedInputStream(artifactFile.read())) {
+                listener.getLogger().println(String.format("Uploading Artifact located at %s", artifactFile.absolutize()));
                 listener.getLogger().println(String.format("Artifact Name: %s", artifactFile.getName()));
                 listener.getLogger().println(String.format("Artifact Size: %s", artifactFile.length()));
 
