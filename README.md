@@ -135,7 +135,7 @@ Oracle Cloud Infrastructure Credentials are required to connect to your Oracle C
 
 You can add these OCI Credentials by navigating to the Jenkins Server console, Credentials, System,  and **Add Credentials**,
 
-Once in the New Credentials screen, select **Oracle Cloud Infrastructure Credentials** from the **Kind** drop-down.
+Once in the New Credentials screen, select **Oracle Cloud Infrastructure Credentials - Devops** from the **Kind** drop-down.
 
 - **Fingerprint** - The Fingerprint for the key pair being used.
 - **API Key** - The OCI API Signing Private Key.
